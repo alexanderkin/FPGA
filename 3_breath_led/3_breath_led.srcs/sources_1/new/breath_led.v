@@ -12,7 +12,7 @@ always @(posedge clk or negedge rst_n) begin
     if (!rst_n)
         period_cnt <= 16'd1;
     else if (period_cnt < 16'd50000)
-    //else if (period_cnt < 16'd10)   //·ÂÕæ´úÂë
+    //else if (period_cnt < 16'd10)   //ä»¿çœŸä»£ç 
         period_cnt <= period_cnt + 1'b1;
     else
         period_cnt <= 16'd1;
@@ -25,21 +25,21 @@ always @(posedge clk or negedge rst_n) begin
     end
     else begin
         if (period_cnt == 16'd50000) begin
-        //if (period_cnt == 16'd10) begin   //·ÂÕæ´úÂë
+        //if (period_cnt == 16'd10) begin   //ä»¿çœŸä»£ç 
             if (inc_dec_flag == 1'b0) begin
                 if (duty_cycle == 16'd50000)
-                //if (duty_cycle == 16'd10)   //·ÂÕæ´úÂë
+                //if (duty_cycle == 16'd10)   //ä»¿çœŸä»£ç 
                     inc_dec_flag <= 1'b1;
                 else
                     duty_cycle <= duty_cycle + 16'd25;
-                    //duty_cycle <= duty_cycle + 16'd1;   //·ÂÕæ´úÂë
+                    //duty_cycle <= duty_cycle + 16'd1;   //ä»¿çœŸä»£ç 
             end
             else begin
                 if (duty_cycle == 16'd0)
                     inc_dec_flag <= 1'b0;
                 else
                     duty_cycle <= duty_cycle - 16'd25;
-                    //duty_cycle <= duty_cycle - 16'd1;   //·ÂÕæ´úÂë
+                    //duty_cycle <= duty_cycle - 16'd1;   //ä»¿çœŸä»£ç 
             end
         end
     end
