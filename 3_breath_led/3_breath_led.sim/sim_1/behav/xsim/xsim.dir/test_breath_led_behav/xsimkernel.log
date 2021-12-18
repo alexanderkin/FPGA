@@ -2,3 +2,6 @@ Running: xsim.dir/test_breath_led_behav/xsimk.exe -simmode gui -wdb test_breath_
 Design successfully loaded
 Design Loading Memory Usage: 5864 KB (Peak: 5864 KB)
 Design Loading CPU Usage: 0 ms
+Simulation completed
+Simulation Memory Usage: 6604 KB (Peak: 6604 KB)
+Simulation CPU Usage: 31 ms
