@@ -32,7 +32,7 @@ module seg_led(
     output reg [7 : 0]  seg_led
     );
 
-localparam CLK_DIVIDE = 4'd10;
+localparam CLK_DIVIDE = 4'd10   ;
 localparam MAX_NUM    = 13'd5000;
 
 reg [3 : 0]  clk_cnt ;
@@ -51,12 +51,12 @@ wire [3 : 0] data3;
 wire [3 : 0] data4;
 wire [3 : 0] data5;
 
-assign data0 = data % 4'd10             ;
-assign data1 = data / 4'd10 % 4'd10     ;
-assign data2 = data / 7'd100 % 4'd10    ;
-assign data3 = data / 10'd1000 % 4'd10  ;
-assign data4 = data / 14'd10000 % 4'd10 ;
-assign data5 = data / 17'd100000        ;
+assign data0 = data             % 4'd10;
+assign data1 = data / 4'd10     % 4'd10;
+assign data2 = data / 7'd100    % 4'd10;
+assign data3 = data / 10'd1000  % 4'd10;
+assign data4 = data / 14'd10000 % 4'd10;
+assign data5 = data / 17'd100000       ;
 
 always @(posedge clk or negedge rst_n) begin
     if (!rst_n) begin
@@ -232,8 +232,8 @@ always @(posedge dri_clk or negedge rst_n) begin
             4'd7    : seg_led <= {dot_disp, 7'b1111000};
             4'd8    : seg_led <= {dot_disp, 7'b0000000};
             4'd9    : seg_led <= {dot_disp, 7'b0010000};
-            4'd10   : seg_led <= 8'b11111111;
-            4'd11   : seg_led <= 8'b10111111;
+            4'd10   : seg_led <= 8'b11111111           ;
+            4'd11   : seg_led <= 8'b10111111           ;
             default : seg_led <= {dot_disp, 7'b1000000};
         endcase
     end
