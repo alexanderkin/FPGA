@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="test_ram_ip_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="test_ram_ip" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="2739500fs"></ZoomStartTime>
+      <ZoomEndTime time="3449501fs"></ZoomEndTime>
+      <Cursor1Time time="10000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="175"></NameColumnWidth>
+      <ValueColumnWidth column_width="146"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="7" />
+   <wvobject fp_name="/test_ram_ip/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_ram_ip/rst_n" type="logic">
+      <obj_property name="ElementShortName">rst_n</obj_property>
+      <obj_property name="ObjectShortName">rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_ram_ip/u_top_ram_ip/ram_en" type="logic">
+      <obj_property name="ElementShortName">ram_en</obj_property>
+      <obj_property name="ObjectShortName">ram_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_ram_ip/u_top_ram_ip/ram_wea" type="logic">
+      <obj_property name="ElementShortName">ram_wea</obj_property>
+      <obj_property name="ObjectShortName">ram_wea</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_ram_ip/u_top_ram_ip/ram_addr" type="array">
+      <obj_property name="ElementShortName">ram_addr[4:0]</obj_property>
+      <obj_property name="ObjectShortName">ram_addr[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_ram_ip/u_top_ram_ip/ram_wr_data" type="array">
+      <obj_property name="ElementShortName">ram_wr_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">ram_wr_data[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_ram_ip/u_top_ram_ip/ram_rd_data" type="array">
+      <obj_property name="ElementShortName">ram_rd_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">ram_rd_data[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+</wave_config>

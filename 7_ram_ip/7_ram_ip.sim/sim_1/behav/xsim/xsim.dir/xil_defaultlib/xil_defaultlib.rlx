@@ -1,0 +1,9 @@
+0.6
+2019.2
+Nov  6 2019
+21:57:16
+C:/Users/Kin/Desktop/FPGA/7_ram_ip/7_ram_ip.sim/sim_1/behav/xsim/glbl.v,1573089660,verilog,,,,glbl,,,,,,,,
+C:/Users/Kin/Desktop/FPGA/7_ram_ip/7_ram_ip.srcs/sim_1/new/test_ram_ip.v,1641122593,verilog,,,,test_ram_ip,,,,,,,,
+C:/Users/Kin/Desktop/FPGA/7_ram_ip/7_ram_ip.srcs/sources_1/ip/blk_mem_gen_0/sim/blk_mem_gen_0.v,1641117994,verilog,,C:/Users/Kin/Desktop/FPGA/7_ram_ip/7_ram_ip.srcs/sources_1/new/ram_rw.v,,blk_mem_gen_0,,,,,,,,
+C:/Users/Kin/Desktop/FPGA/7_ram_ip/7_ram_ip.srcs/sources_1/new/ram_rw.v,1641123036,verilog,,C:/Users/Kin/Desktop/FPGA/7_ram_ip/7_ram_ip.srcs/sources_1/new/top_ram_ip.v,,ram_rw,,,,,,,,
+C:/Users/Kin/Desktop/FPGA/7_ram_ip/7_ram_ip.srcs/sources_1/new/top_ram_ip.v,1641122421,verilog,,C:/Users/Kin/Desktop/FPGA/7_ram_ip/7_ram_ip.srcs/sim_1/new/test_ram_ip.v,,top_ram_ip,,,,,,,,
