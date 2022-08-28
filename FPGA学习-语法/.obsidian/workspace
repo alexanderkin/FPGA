@@ -1,0 +1,106 @@
+{
+  "main": {
+    "id": "72dae5953bc4d6f1",
+    "type": "split",
+    "children": [
+      {
+        "id": "7745b91813687f40",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "FPGA学习-语法.md",
+            "mode": "source"
+          }
+        },
+        "group": "9ef96b07a14ade6b"
+      },
+      {
+        "id": "29ce10a50486a48d",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "FPGA学习-语法.md",
+            "mode": "preview"
+          }
+        },
+        "group": "9ef96b07a14ade6b"
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "4a75f2c774332d10",
+    "type": "split",
+    "children": [
+      {
+        "id": "fa97810dfdff1c38",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6084820de93778a8",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "0ff0a2ae64639985",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "fda812ce6e3df13a",
+    "type": "split",
+    "children": [
+      {
+        "id": "4689ef441ac46871",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "01196a77efd7ee45",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "FPGA学习-语法.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "29ce10a50486a48d",
+  "lastOpenFiles": [
+    "FPGA学习-语法.md"
+  ]
+}

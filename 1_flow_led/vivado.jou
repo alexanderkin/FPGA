@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Sun Jul 10 20:25:54 2022
+# Process ID: 4024
+# Current directory: E:/嵌入式/FPGA/FPGA/1_flow_led
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10440 E:\嵌入式\FPGA\FPGA\1_flow_led\1_flow_led.xpr
+# Log file: E:/嵌入式/FPGA/FPGA/1_flow_led/vivado.log
+# Journal file: E:/嵌入式/FPGA/FPGA/1_flow_led\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/嵌入式/FPGA/FPGA/1_flow_led/1_flow_led.xpr
+update_compile_order -fileset sources_1

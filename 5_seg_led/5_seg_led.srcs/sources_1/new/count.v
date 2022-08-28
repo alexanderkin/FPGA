@@ -34,7 +34,7 @@ parameter MAX_NUM = 23'd5000000;
 
 reg [22 : 0] cnt ;
 reg          flag;
-v
+
 always @(posedge clk or negedge rst_n) begin
     if (!rst_n) begin
         cnt  <= 23'd0;

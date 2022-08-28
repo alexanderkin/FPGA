@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Sun Aug 28 20:49:44 2022
+# Process ID: 19072
+# Current directory: C:/Users/Kin/Desktop/FPGA/8_fifo_ip/8_fifo_ip
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent6104 C:\Users\Kin\Desktop\FPGA\8_fifo_ip\8_fifo_ip\8_fifo_ip.xpr
+# Log file: C:/Users/Kin/Desktop/FPGA/8_fifo_ip/8_fifo_ip/vivado.log
+# Journal file: C:/Users/Kin/Desktop/FPGA/8_fifo_ip/8_fifo_ip\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Kin/Desktop/FPGA/8_fifo_ip/8_fifo_ip/8_fifo_ip.xpr
+update_compile_order -fileset sources_1
+open_run synth_1 -name synth_1
